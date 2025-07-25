@@ -1,2 +1,2 @@
 # PortableWeatherStationPCB
-Weather station PCB project | *Currently in progress: symbols for all components have been made; I need to check wiring next*
+Weather station PCB project | *Currently in progress: custom footprints have been made and schematic has been checked and wried up: next is the PCB editor*
