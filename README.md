@@ -36,7 +36,7 @@ This board is meant to operate at 5V (via mini USB connection), this system uses
  - DHT
 - Gerber File generation for manufacturing (manufactured using PCBWay)
 
-#Custom Footprints
+# Custom Footprints
 Footprints were created for the PCB based on the exact physical measurments of the components in mm for accurate pad and pin allignments (2.54 mm spacing between pads)
 
 - DHT-11: 14.5mm X 29mm (W X L)
@@ -60,4 +60,6 @@ Footprints were created for the PCB based on the exact physical measurments of t
 
 ## User Responsive UI/THEME Toggle
 + Manual toggle switch that allows user to switch theme of system
+
+# System Preview
 
