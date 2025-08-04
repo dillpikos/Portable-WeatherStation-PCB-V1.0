@@ -21,4 +21,17 @@ This board is meant to operate at 5v (via mini USB connection), this system uses
 - Toggle Switch (to toggle between themes: *switch facing up: light/day theme; switch facing down: dark/night theme*)
 - Custom 2 layer PCB (designed in KiCAD 9)
 - Soldering of through hole components
-- Power bank (5000 MaH) & 6 in mini USB cable
+- Power bank (5000 MaH)
+- 6 in mini USB cable
+
+## Software Related
+- Arduino Nano
+- C++ (custom functions for optimizing display logic (only updating stuff when needed), managing toggle switch states, and for drawing UI upon start of system to correspond with initial switch state)
+- KiCAD 9 (Used for schematic design, creating custom symbols and footprints for componenets, mixed signal routing, and validating ERC & DRC)
+- Various libraries for compenets:
+ - Adafruit GFX
+ - Adafruit ST7735
+ - RTCLib
+ - DHT
+- Gerber File generation for manufacturing (manufactured using PCBWay)
+
