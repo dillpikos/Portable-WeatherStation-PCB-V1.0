@@ -8,9 +8,8 @@ TFT displays tend to run into the issue of flickering whenever updating data qui
  
 This system was designed entirly from scratch and all components were selected for compatibility and the PCB includes custom made symbols and footprints for each of the components  along with labeling on the silkscreen of the PCB for clarity
  
-This board is meant to operate at 5v (via mini USB connection), this system uses I2C to communicate to the RTC module along with SPI to communicate with the ST7735S TFT display for fast user updates. Mounting holes are present at each corner of the board for M2 screws.
- 
-* created by: Bryan Diaz | Focus: Embedded Systems, Hardware and PCB Design*
+This board is meant to operate at 5v (via mini USB connection), this system uses I2C to communicate to the RTC module along with SPI to communicate with the ST7735S TFT display for fast user updates. Mounting holes are present at each corner of the board for M2 screws. <br>
+*created by: Bryan Diaz | Focus: Embedded Systems, Hardware and PCB Design*
 
 
 Weather station PCB project | *Currently in progress: Board has been checked and has been sent in for manufacturing now we wait*
