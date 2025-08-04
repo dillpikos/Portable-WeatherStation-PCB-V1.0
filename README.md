@@ -9,7 +9,7 @@ TFT displays tend to run into the issue of flickering whenever updating data qui
  
 This system was designed entirly from scratch (converted perfboard to PCB) and all components were selected for compatibility and the PCB includes custom made symbols and footprints for each of the components  along with labeling on the silkscreen of the PCB for clarity
  
-This board is meant to operate at 5v (via mini USB connection), this system uses I2C to communicate to the RTC module along with SPI to communicate with the ST7735S TFT display for fast user updates. Mounting holes are present at each corner of the board for M2 screws. <br>
+This board is meant to operate at 5V (via mini USB connection), this system uses I2C to communicate to the RTC module along with SPI to communicate with the ST7735S TFT display for fast user updates. Mounting holes are present at each corner of the board for M2 screws. <br>
 *created by: Bryan Diaz | Focus: Embedded Systems, Hardware and PCB Design*
 
 # Technologies and Components
@@ -35,4 +35,29 @@ This board is meant to operate at 5v (via mini USB connection), this system uses
  - RTCLib
  - DHT
 - Gerber File generation for manufacturing (manufactured using PCBWay)
+
+#Custom Footprints
+Footprints were created for the PCB based on the exact physical measurments of the components in mm for accurate pad and pin allignments (2.54 mm spacing between pads)
+
+- DHT-11: 14.5mm X 29mm (W X L)
+- MQ-135: 20mm X 32mm (W X L)
+- DS3231 RTC: 22mm X 38.5mm (W X L)
+- ST7735S TFT Display: 30mm X 43.5mm (W X L)
+
+# System Features
+## Displays Current:
++ AM/PM formatted time (PST)
++ Day of week
++ Date (MM/DD/YYYY)
++ Temperature (F|C)
++ Humidity (%)
++ General air quality
+
+## Time Responsive Icons 
++ Morning Icon: 6 AM - 3 PM
++ Afternoon Icon: 4 PM - 6 PM
++ Evening/Night Icon: 7 PM - 5 AM
+
+## User Responsive UI/THEME Toggle
++ Manual toggle switch that allows user to switch theme of system
 
