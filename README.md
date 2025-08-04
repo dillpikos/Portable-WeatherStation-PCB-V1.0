@@ -1,6 +1,7 @@
 # Portable WeatherStation PCB Created With KiCAD 9
 A fully functional custom designed portable weather station PCB that integrates the use of multiple sensors, real time data visualization, and user interaction.
-I built this to explore various concepts of embedded systems, I wanted more expirence in data visualization on a display and power efficient programming on a microcontroller.
+I built this to explore deeper concepts of embedded systems and hardware in as a whole, I wanted more expirence in data visualization on a display, power efficient programming on a microcontroller, and end to end hardware development.
+ 
 This system displays and updates weather and time related information in real time using a flicker free responsive UI that includes dynamic weather icons that correspond to the current time of day along with a toggle switch that the user can flip to toggle a light and dark mode to better suit the current enviorment of the user.
 <br>
  
