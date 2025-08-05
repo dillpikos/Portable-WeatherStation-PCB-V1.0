@@ -70,6 +70,10 @@ Footprints were created for the PCB based on the exact physical measurments of t
 
 https://github.com/user-attachments/assets/ecc253c0-51ab-447f-b8cf-1e997ebe2ff8
 
+# Perfboard Prototype
+
+https://github.com/user-attachments/assets/00b2977f-2681-413b-b326-3bab5543b804
+
 
 
 
