@@ -30,10 +30,10 @@ This board is meant to operate at 5V (via mini USB connection), this system uses
 - C++ (custom functions for optimizing display logic (only updating stuff when needed), managing toggle switch states, and for drawing UI upon start of system to correspond with initial switch state)
 - KiCAD 9 (Used for schematic design, creating custom symbols and footprints for componenets, mixed signal routing, and validating ERC & DRC)
 - Various libraries for components:
- - Adafruit GFX
- - Adafruit ST7735
- - RTCLib
- - DHT
+  - Adafruit GFX
+  - Adafruit ST7735
+  - RTCLib
+  - DHT
 - Gerber File generation for manufacturing (manufactured using PCBWay)
 
 # Custom Footprints
