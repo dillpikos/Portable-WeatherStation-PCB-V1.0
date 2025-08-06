@@ -2,7 +2,7 @@
 A custom designed portable weather station PCB that integrates the use of multiple sensors, real time data visualization, and user interaction.
 I built this to explore deeper concepts of embedded systems and hardware as a whole, I wanted more expirence in data visualization on a display, power efficient programming on a microcontroller, and end to end hardware development.
  
-This system displays and updates weather and time related information in real time using a flicker free responsive UI that includes dynamic weather icons that correspond to the current time of day along with a toggle switch that the user can flip to toggle a light and dark mode to better suit the current environment of the user.
+This system displays and updates weather and time related information in real time using a flicker free responsive UI that includes dynamic weather icons that correspond to the current time of day along with a toggle switch that the user can flip to toggle a light and dark mode to better suit their current environment.
 <br>
  
 TFT displays tend to run into the issue of flickering whenever updating data quickly on a slower microcontroller like the Arduino Nano, when working on this project I ran into the issue of the display constantly flickering when updating the data. To get past this issue I came up with implementing a conditional system to only update data when detecting change in sensor values instead of updating it constantly in the loop function which better optimized the system as well.
