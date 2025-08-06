@@ -1,4 +1,4 @@
-# Portable WeatherStation PCB Created With KiCAD 9
+# Portable Weather Station PCB Created With KiCAD 9
 A fully functional custom designed portable weather station PCB that integrates the use of multiple sensors, real time data visualization, and user interaction.
 I built this to explore deeper concepts of embedded systems and hardware as a whole, I wanted more expirence in data visualization on a display, power efficient programming on a microcontroller, and end to end hardware development.
  
